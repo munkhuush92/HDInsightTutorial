@@ -20,16 +20,23 @@
     * Step 2. Connect to an Azure account
     	* To login Azure account from Azure Shell, type in the shell: 
 	
-	```
-	Login-AzureRmAccount
-	```
+		```
+		Login-AzureRmAccount
+		```
+		* After that, it will pop up the browser for you to enter your credentials
+			![loginpopup](/images/loggingin.png)
+		* If logged successfully, then it will show your info
+			![loginsuccess](/images/loginsucess.png)
+		
     
-  To check the version of the installed PowerShell:
-  ```
-  Get-Module *azure*
-  ```
- * To create an HDInsight cluster by using Azure PowerShell, you must complete the following procedures:+
-    * Create an Azure resource group
+
+ ##2. To create an HDInsight cluster by using Azure PowerShell, you must complete the following procedures:
+    * Create an Azure resource group:+
+    	* Step 1. Create a variable for group name
+		```
+		$resGroupName = "yourdesiredgroupname"
+		```
     * Create an Azure Storage account
     * Create an Azure Blob container
     * Create an HDInsight cluster
+	
