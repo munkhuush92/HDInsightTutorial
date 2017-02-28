@@ -46,7 +46,7 @@ https://github.com/munkhuush92/HDInsightTutorial
 
 			![resourcegroupsuccess](/images/resgroupnamesuccess.png)
 			
-		* I created a multiple of variable so that I can use it later process. (Short Cut)
+	* I created a multiple of variable so that I can use it later process. (Short Cut)
 		
 		Make sure $token is all in lowercase because we will use it for storage name and storage name must be all lower-case
 			![resourcegroupsuccess2](/images/rescreated.png)
