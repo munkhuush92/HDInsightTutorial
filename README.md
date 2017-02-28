@@ -81,12 +81,12 @@ https://github.com/munkhuush92/HDInsightTutorial
 	$credentials = Get-Credential -Message "Enter Cluster user credentials" -UserName "admin"
 	$sshCredentials = Get-Credential -Message "Enter SSH user credentials"
 	```
-		* Step 2. The location of the HDInsight cluster must be in the same data center as the Storage account.
+	 * Step 2. The location of the HDInsight cluster must be in the same data center as the Storage account.
 
 				```
 				$location = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -StorageAccountName $defaultStorageAccountName | %{$_.Location}
 				```
-	* Step 3. Creating the HDInsight Cluster. Please be patient, It can take up to 20 minutes to create a cluster.
+	  * Step 3. Creating the HDInsight Cluster. Please be patient, It can take up to 20 minutes to create a cluster.
 	
 	```
 	New-AzureRmHDInsightCluster `
