@@ -11,7 +11,12 @@
      ```
      Install-Module AzureRM
      ```
+     
+     ![To install and replace over the old version, please enter "A"](/images/install.png)
+     
+    Then, if it is successfully started, it should show this progress:
     
+    ![progress](/images/progress.png)
     * Step 2.
     
   To check the version of the installed PowerShell:
