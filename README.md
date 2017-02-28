@@ -32,12 +32,12 @@ https://github.com/munkhuush92/HDInsightTutorial
 
  ##2. To create an HDInsight cluster by using Azure PowerShell, you must complete the following procedures:
     * Create an Azure resource group:
-    		* Step 1. Create a variable for group name. 
+    	* Step 1. Create a variable for group name. 
 		```
 		$resGroupName = "yourdesiredgroupname"
 		```
 		
-		* Step 2. Using groupname variable to create resource group. Location can be anywhere.
+	* Step 2. Using groupname variable to create resource group. Location can be anywhere.
 
 			```
 			New-AzureRmResourceGroup -Name $resGroupName -Location "South Central US"
@@ -46,7 +46,7 @@ https://github.com/munkhuush92/HDInsightTutorial
 
 			![resourcegroupsuccess](/images/resgroupnamesuccess.png)
 			
-		* I created a multiple of variable so that I can use it later process. (Short Cut)
+	* I created a multiple of variable so that I can use it later process. (Short Cut)
 		
 		Make sure $token is all in lowercase because we will use it for storage name and storage name must be all lower-case
 			![resourcegroupsuccess2](/images/rescreated.png)
@@ -81,7 +81,7 @@ https://github.com/munkhuush92/HDInsightTutorial
 	$credentials = Get-Credential -Message "Enter Cluster user credentials" -UserName "admin"
 	$sshCredentials = Get-Credential -Message "Enter SSH user credentials"
 	```
-	* Step 2. The location of the HDInsight cluster must be in the same data center as the Storage account.
+		* Step 2. The location of the HDInsight cluster must be in the same data center as the Storage account.
 
 				```
 				$location = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -StorageAccountName $defaultStorageAccountName | %{$_.Location}
