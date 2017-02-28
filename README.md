@@ -37,6 +37,15 @@
 		```
 		$resGroupName = "yourdesiredgroupname"
 		```
+	* Step 2. Using groupname variable to create resource group. Location can be anywhere.
+		
+		```
+		New-AzureRmResourceGroup -Name $resGroupName -Location "South Central US"
+		```
+		If created successfully, then it should show the result
+			
+		![resourcegroupsuccess](/images/resgroupnamesuccess.png)
+			
     * Create an Azure Storage account
     * Create an Azure Blob container
     * Create an HDInsight cluster
