@@ -31,7 +31,7 @@
     
 
  ##2. To create an HDInsight cluster by using Azure PowerShell, you must complete the following procedures:
-    * Create an Azure resource group:+
+    * Create an Azure resource group:
     	* Step 1. Create a variable for group name
 	
 		```
