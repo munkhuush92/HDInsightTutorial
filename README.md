@@ -37,7 +37,7 @@ https://github.com/munkhuush92/HDInsightTutorial
 		$resGroupName = "yourdesiredgroupname"
 		```
 		
-	* Step 2. Using groupname variable to create resource group. Location can be anywhere.
+	 * Step 2. Using groupname variable to create resource group. Location can be anywhere.
 
 			```
 			New-AzureRmResourceGroup -Name $resGroupName -Location "South Central US"
