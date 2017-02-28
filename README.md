@@ -17,7 +17,12 @@
     Then, if it is successfully started, it should show this progress:
     
     ![progress](/images/progress.png)
-    * Step 2.
+    * Step 2. Connect to an Azure account
+    	* To login Azure account from Azure Shell, type in the shell: 
+	
+	```
+	Login-AzureRmAccount
+	```
     
   To check the version of the installed PowerShell:
   ```
